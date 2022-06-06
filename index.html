@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content-limit">
+        <header>
+            <h2>Bem vindo de volta</h2>
+            <h1>Faça login na sua conta</h1>
+        </header>
+        <main>
+            <form action="">
+                <label for="user-email">E-mail</label>
+                <input type="email" name="user-email" id="user-email">
+                <label for="user-password">Senha</label>
+                <input type="password" name="user-password" id="user-password">
+                <div class="extra-wrapping">
+                    <div class="checkbox-components">
+                        <input class="checkbox-remember" type="checkbox" name="user-remember" id="user-remember">
+                        <label class="label-remember" for="user-remember">Lembre-me</label>
+                    </div>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                <button class="login">Entrar</button>
+                <button class="google"><img src="assets/icons/google.png" alt="Icone do Google"> Ou faça login com o Google</button>
+            </form>
+        </main>
+        <footer>
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </footer>
+    </div>
+</body>
+</html>
